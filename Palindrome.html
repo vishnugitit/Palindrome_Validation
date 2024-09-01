@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      str = prompt("Enter: ");
+      str1 = "";
+      for (i = 1; i <= str.length; i++) {
+        str1 += str[str.length - i];
+      }
+      if (str1 == str) {
+        alert("Palindrome");
+      } else {
+        alert("Not Palindrome");
+      }
+    </script>
+  </body>
+</html>
